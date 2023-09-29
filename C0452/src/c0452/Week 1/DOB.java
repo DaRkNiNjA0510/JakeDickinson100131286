@@ -10,21 +10,18 @@
  *
  * @author 100131286
  */
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.util.Scanner; // import the Scanner class 
 
-public class DOB {
+class Main {
   public static void main(String[] args) {
-    String pattern = "dd/MM/yyyy";
-    SimpleDateFormat format = new SimpleDateFormat(pattern);
-    try {
-      Date date = format.parse("05/10/1998");
-      System.out.println(date);
-    } catch (ParseException e) {
-    }
-    // formatting
-    System.out.println(format.format(new Date()));
+    Scanner myObj = new Scanner(System.in);
+    String userName;
+    
+    // Enter username and press Enter
+    System.out.println("Enter username"); 
+    userName = myObj.nextLine();   
+       
+    System.out.println("Username is: " + userName);        
   }
 }
     
