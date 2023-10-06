@@ -1,23 +1,32 @@
 
-/**
- *
- * @author 100131286
- */
-public class Student_Database {
+class Main {
+  int x =5
+  
   public static void main(String[] args) {
-
-Private String studentName;
-
+Main myobj= new Main();
+System.out.println(myobj.x);
+  }
+}
+//data 
+Private String studentfirstname;
+Private String studentlastname;
 Private int studentid;
 
-//constructor
-Student_Database();
+//empty constructor
+public Student_Database ();
+
+//populatedconstructor
+public Student_Database(int id String Name);
         
-public set StudentName (string StudentName);
-Public String get studentname();
+public set studentfirstname (string studentfirstname);
+Public String get studentfirstname();
+
+Public set studentfinalname (string studentfinalname);
+Public string get studentfinalname ();
 
 public set studentid(int studentid);
 Public int getstudentid();
+
 
 
 

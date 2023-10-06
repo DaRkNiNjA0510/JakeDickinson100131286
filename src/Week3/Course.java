@@ -1,7 +1,8 @@
 package Week3;
-import helpers.*;
 
 public class Course 
 {
-    
-}
+	@Override
+	public String toString() {
+		return "Course []";
+	}
