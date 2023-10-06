@@ -1,6 +1,4 @@
 
-
-
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -18,8 +16,8 @@ class Main {
 
     System.out.println("age:");
 
-    // String input
-    String name = myObj.nextLine();
+      // String input
+      String String = myObj.nextLine();
 
     // Numerical input
     int age = myObj.nextInt();
