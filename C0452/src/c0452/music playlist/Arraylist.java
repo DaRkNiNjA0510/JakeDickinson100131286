@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArrayListExample {
+public class Playlist {
     public static void main(String[] args) {
         List<Playlist> playlist = new ArrayList<>();
     }
