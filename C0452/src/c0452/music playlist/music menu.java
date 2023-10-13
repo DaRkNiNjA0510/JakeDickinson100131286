@@ -1,53 +1,51 @@
-//importing scanner class
-import java.util.Scanner:
-
-//creating class
-public class MusicMenu{
-
-  //creating main method
-  public static void main (String[] args){
-
-    //declaring all variables
-    int a,b,c;
-    int choice
-      Scanner scanner= new Scanner (System.in);
-    //creating infinite loop
-    while(true){
-
-      //creating menu
-      System.out.println("press 1 to add song"");
-      System.out.println("press 2 to remove song");
-      System.out.println("press 3 to print playlist");
-      System.out.println("press 4 to print a list of songs within given number of plays");
-      System.out.println("press 5 to exit");
-
-      //Asking user to make choice
-      System.out.println("Enter your choice");
-      choice= scanner.nextInt();
-
-      //Creating switch case branch
-      switch (choice){
-          //case 1 (adding a song into the playlist)
-        case 1:
-          System.out.println("Enter song name")
-a=scanner.nextInt();
-System.out.println("Enter song artist")
-  b=scanner.nextInt();
-System.out.println("Enter play count")
-  c=scanner.nextInt();
-  System.out.println("song added");
-         break;
-
-          //case 2 (removing a song from playlist)
-        case 2:
-
-System.out.println("Enter song name within the playlist")
-a=scanner.nextInt();          
-System.out.println("Enter song artist within the playlist")
-b=scanner.nextInt();    
-System.out.println("song Removed");
-break;
-
-//case 3 (printing the playlist)
-        case 3:
-          
+import java.util.Scanner;
+public class MusicMenu {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int choice;
+        while (true) {
+            System.out.println("Press 1 to add a song");
+            System.out.println("Press 2 to remove a song");
+            System.out.println("Press 3 to print the playlist");
+            System.out.println("Press 4 to print a list of songs within a given number of plays");
+            System.out.println("Press 5 to exit");
+            System.out.println("Enter your choice: ");
+            choice = scanner.nextInt();
+            switch (choice) {
+                case 1:
+                    System.out.println("Enter song name: ");
+                    String songName = scanner.next();
+                    System.out.println("Enter song artist: ");
+                    String artistName = scanner.next();
+                    System.out.println("Enter play count: ");
+                    int playCount = scanner.nextInt();
+                    System.out.println("Song added");
+                    // Code to add the song to the playlist
+                    break;
+                case 2:
+                    System.out.println("Enter song name to remove: ");
+                    String songToRemove = scanner.next();
+                    System.out.println("Enter artist name of the song to remove: ");
+                    String artistToRemove = scanner.next();
+                    System.out.println("Song removed");
+                    // Code to remove the song from the playlist
+                    break;
+                case 3:
+                    System.out.println("Printing the playlist");
+                    // Code to print the playlist
+                    break;
+                case 4:
+                    System.out.println("Enter the number of plays: ");
+                    int plays = scanner.nextInt();
+                    System.out.println("Printing songs within " + plays + " plays");
+                    // Code to print a list of songs within a given number of plays
+                    break;
+                case 5:
+                    System.out.println("Exiting...");
+                    return;
+                default:
+                    System.out.println("Invalid choice");
+            }
+        }
+    }
+}
