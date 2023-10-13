@@ -17,7 +17,7 @@ public class MusicMenu{
       //creating menu
       System.out.println("press 1 to add song"");
       System.out.println("press 2 to remove song");
-  System.out.println("press 3 to print playlist");
+      System.out.println("press 3 to print playlist");
       System.out.println("press 4 to print a list of songs within given number of plays");
       System.out.println("press 5 to exit");
 
@@ -41,8 +41,9 @@ System.out.println("Enter play count")
           //case 2 (removing a song from playlist)
         case 2:
 
-          System.out.println("Enter song name within the playlist")
- a=scanner.nextInt();          System.out.println("Enter song artist within the playlist")
+System.out.println("Enter song name within the playlist")
+a=scanner.nextInt();          
+System.out.println("Enter song artist within the playlist")
 b=scanner.nextInt();    
 System.out.println("song Removed");
 break;
