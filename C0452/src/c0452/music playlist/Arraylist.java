@@ -23,4 +23,10 @@ if(playcount!=null)
   playcount.remove(playcount);
 else
   System.oout.println("Playcount not found");
+
+Song song = new Song("Beautiful", "Anne-Marie", 863,015);
+Song song = new Song("Bad Habits", "Ed Sheeran", 127,191,452);
+Song song = new Song("Halo", "Beyonce", 991,888,598);
+Song song = new Song("Clash", "Dave Feat.Stormzy", 7,070,513);
+Song song = new Song("It Gets Better", "Swedish House Mafia", 7,563,930);
   }

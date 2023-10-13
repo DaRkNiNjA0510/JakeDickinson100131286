@@ -12,7 +12,7 @@ so far with doing this assignment i have gained a better understanding of using 
 
 after creating the initial code for what i needed to do with my assignment i realised that replit has an ai feature built in so i asked that to see if my coding is correct and to improve the coding in areas where it needs improving on. 
 
-later down the line ive managed to impliment an array as a seperate file for now due to not knowing if i need to add into a coding file ive already made or it needed to be seperate file overall for it all to work in the end.
+later down the line ive managed to impliment an array as a seperate file for now due to not knowing if i need to add into a coding file ive already made or it needed to be seperate file overall for it all to work in the end due to not knowing if i need to add it into a certain file or keep it seperate to the rest
 
 
 References
