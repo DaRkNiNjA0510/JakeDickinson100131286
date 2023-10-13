@@ -1,12 +1,8 @@
-public class Main
-{
-  public static void main( String[] arg)
-  {
-    Menu menu = new Menu();
-
-    menu.loadPlaylist();
-    menu.runMenu();
-
-  }
-
-} //End class
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        MusicMenu menu = new MusicMenu();
+        menu.loadPlaylist();
+        menu.runMenu();
+    }
+}
