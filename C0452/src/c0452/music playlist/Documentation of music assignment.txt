@@ -1,0 +1,17 @@
+Documentation of music assignment
+
+With not being familer with java coding in general i first decided to try and create the music menu first with what limited knowleagement i had with java coding 
+
+First off i decided to look up on W3Schools to have a look on what i needed to do to start inputting the coding that i needed to do to start creating my music menu, i decided to follow the coding that was provided to me within the section of W3 schools i was looking under and modified it so that it worked more like a menu instead of what it was intended to do
+
+ive gotten to the part where i needed enter the coding for adding, removing, printing the playlist and printing a list of songs that had a given number of plays provided by the user.
+
+After reseraching on google for creating a playlist and song menu ive been given different results but ive managed to find one that looked like it could be the correct one and currently going to double check it to see if everything is correct and is working correctly and make any changes to the coding if needed 
+
+so far with doing this assignment i have gained a better understanding of using java coding more then i previously did though the lectures possibly due to i learn better though trial and error as it syncs in better with what limited knowleage i have gained though lectures alone
+
+
+
+References
+
+Pyuntae et al. (1962) Playlist and Song and driver, Stack Overflow. Available at: https://stackoverflow.com/questions/33162098/playlist-and-song-and-driver (Accessed: 13 October 2023). 
