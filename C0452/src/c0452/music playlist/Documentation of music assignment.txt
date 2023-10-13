@@ -10,6 +10,7 @@ After reseraching on google for creating a playlist and song menu ive been given
 
 so far with doing this assignment i have gained a better understanding of using java coding more then i previously did though the lectures possibly due to i learn better though trial and error as it syncs in better with what limited knowleage i have gained though lectures alone
 
+after creating the initial code for what i needed to do with my assignment i realised that replit has an ai feature built in so i asked that to see if my coding is correct and to improve the coding in areas where it needs improving on 
 
 
 References
