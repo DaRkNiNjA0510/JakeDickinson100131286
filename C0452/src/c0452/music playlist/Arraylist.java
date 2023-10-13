@@ -15,6 +15,7 @@ public Playcount findbyplaycount(int playcount)
       return playcount;
   }
   return null;
+
 //removing from the array
 public Playcount remove (int playcount)
   {
@@ -22,8 +23,11 @@ public Playcount remove (int playcount)
 if(playcount!=null)
   playcount.remove(playcount);
 else
-  System.oout.println("Playcount not found");
+  System.out.println("Playcount not found");
+}
 
+//adding songs for the arraylist
+public void addSong(Song song)
 Song song = new Song("Beautiful", "Anne-Marie", 863,015);
 Song song = new Song("Bad Habits", "Ed Sheeran", 127,191,452);
 Song song = new Song("Halo", "Beyonce", 991,888,598);
