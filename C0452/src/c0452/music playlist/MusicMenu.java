@@ -1,6 +1,8 @@
 import java.util.Scanner;
+
+
 public class MusicMenu {
-    public static void main(String[] args) {
+    public main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int choice;
         while (true) {
