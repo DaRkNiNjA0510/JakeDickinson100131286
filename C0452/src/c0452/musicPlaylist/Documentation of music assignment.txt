@@ -45,6 +45,8 @@ After going over the coding to see if everything is correct or to an acceptable 
 
 After managing to merge some of the coding into my main.java file i realised i made some configeration errors so i relooked back though the coding ive done within my Main.java file and corrected any configeration errors ive made and started trying to add any final touchs and see if all the coding works as intended within all my java files before submitting my work 
 
+After doing Clean up with the coding ive started testing the coding and ive managed to get most of the coding working as intended the only problem ive ran into so far is that if i inputted the same name of the song i already inputted in my coding it would stop working assuming that it found it as a duplicate so then but apart from that all the coding works as intended.
+
 References
 
 Pyuntae et al. (1962) Playlist and Song and driver, Stack Overflow. Available at: https://stackoverflow.com/questions/33162098/playlist-and-song-and-driver (Accessed: 13 October 2023). 
