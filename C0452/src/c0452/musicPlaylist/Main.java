@@ -1,8 +1,8 @@
 import java.util.Scanner;
+public class Main {
+    
 
-
-public class MusicMenu {
-    public main(String[] args) {
+  public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int choice;
         while (true) {
@@ -47,6 +47,7 @@ public class MusicMenu {
                     return;
                 default:
                     System.out.println("Invalid choice");
+                break;
             }
         }
     }

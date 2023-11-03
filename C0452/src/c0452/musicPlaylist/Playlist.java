@@ -1,38 +1,14 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class Playlist {
-    private List<Playcount> playcounts;
+    private ArrayList<Song> playcounts;
 
-    public Playlist() {
-        playcounts = new ArrayList<>();
-        addSongs();
-    }
-
-    public Playcount findbyplaycount(int playcount) {
-        for(Playcount pc : playcounts) {
-            if(pc.getPlaycount() == playcount) {
-                return pc;
-            }
-        }
-        return null;
-    }
-
-    public Playcount remove(int playcount) {
-        Playcount pc = findbyplaycount(playcount);
-        if(pc != null) {
-            playcounts.remove(pc);
-        } else {
-            System.out.println("Playcount not found");
-        }
-        return pc;
-    }
-
-    public void addSong(Song song) {
-        playcounts.add(song);
-    }
-
-    private void addSongs() {
+  /*
+  Constructor: purpose of method
+  */  
+  public Playlist() {
+        //Playcount playcounts = new ArrayList<>();
+        
         Song song1 = new Song("Sheperd of Fire", "Avenged Sevenfold", 77263614);
         playcounts.add(song1);
 
@@ -62,10 +38,24 @@ public class Playlist {
 
         Song song10 = new Song("Carry On", "Avenged Sevenfold", 28,414,528);
         playcounts.add(song10);
-
-      for (int loop=0;loop<=9;loop++)
-        {
-          Playlist.addsong(songs[loop]);
     }
-      return Playlist;
+
+    public Playcount findbyplaycount(int playcount) {
+        for(Playcount pc : playcounts) {
+            if(pc.getPlaycount() == playcount) {
+                return pc;
+            }
+        }
+        return null;
+    }
+
+    public Playcount remove(int playcount) {
+        Playcount pc = findbyplaycount(playcount);
+        if(pc != null) {
+            playcounts.remove(pc);
+        } else {
+            System.out.println("Playcount not found");
+        }
+        return pc;
+    }
 }
