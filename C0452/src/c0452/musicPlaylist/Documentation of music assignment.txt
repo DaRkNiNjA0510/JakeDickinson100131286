@@ -43,6 +43,8 @@ After looking over the coding i found out that i could not test the coding prope
 
 After going over the coding to see if everything is correct or to an acceptable level i found out that i needed to merge certain coding into my main java file so ive ended up adding all the nessessary coding into the main java file and was left with the nessessary files i needed for the aassignment.
 
+After managing to merge some of the coding into my main.java file i realised i made some configeration errors so i relooked back though the coding ive done within my Main.java file and corrected any configeration errors ive made and started trying to add any final touchs and see if all the coding works as intended within all my java files before submitting my work 
+
 References
 
 Pyuntae et al. (1962) Playlist and Song and driver, Stack Overflow. Available at: https://stackoverflow.com/questions/33162098/playlist-and-song-and-driver (Accessed: 13 October 2023). 
