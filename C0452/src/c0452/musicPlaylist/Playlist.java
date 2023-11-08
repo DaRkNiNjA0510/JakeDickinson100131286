@@ -13,13 +13,13 @@ public class Playlist {
         Song song1 = new Song("Sheperd of Fire", "Avenged Sevenfold", 77263614);
         playcounts.add(song1);
 
-        Song song2 = new Song("115", "Elena Siegman", 4,774,120);
+        Song song2 = new Song( "115", "Elena Siegman", 4,774,120);
         playcounts.add(song2);
-
+    
         Song song3 = new Song("Blood Code", "La Castle Vania", 3,908,126);
         playcounts.add(song3);
 
-        Song song4 = new Song("Through the Fire and Flames", "DragonForce", 5,046,088);
+        Song song4 = new Song("Fury Of The Storm", "DragonForce", 110000000);
         playcounts.add(song4);
 
         Song song5 = new Song("Number of the Beast", "Iron Maiden", 69,361,983);
